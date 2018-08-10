@@ -17,12 +17,12 @@ def description(weather)
   return weather[:description]
 end
 
-# def weather_report(weather)
-#   "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Farenheit."
-# end
-# puts weather_report(weather)
+def weather_report(weather)
+  "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Farenheit."
+end
+puts weather_report(weather)
 
-# def city_weather_info(weather)
+def city_weather_info(weather)
   
 
 
