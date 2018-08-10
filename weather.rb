@@ -34,12 +34,12 @@ end
 # #4. Write a method that takes in the weather hash as an argument. 
 # # You'll want to use the each method to iterate over the hash and print out
 # # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
-hash_each = {
+weather_hash = {
   "The city is #{:city}",
   "The description is #{:description}",
   "The temper is #{:temperature_farenheit}"
 }
-  
+puts weather_hash
   
 
 
