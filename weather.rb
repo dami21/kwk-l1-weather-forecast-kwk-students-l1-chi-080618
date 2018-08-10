@@ -35,9 +35,9 @@
 # # You'll want to use the each method to iterate over the hash and print out
 # # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 weather_hash = {
-  "The city is #{:city}",
-  "The description is #{:description}",
-  "The temper is #{:temperature_farenheit}"
+  "The city is #{weather[:city]}",
+  "The description is #{weather[:description]}",
+  "The temper is #{weather[:temperature_farenheit]}"
 }
 puts weather_hash
   
